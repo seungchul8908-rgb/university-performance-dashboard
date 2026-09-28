@@ -8,3 +8,11 @@
 - 150% 상한 적용 비교 및 목표값 적정성 진단
 
 웹 배포용 정적 파일은 저장소 루트에서 제공합니다.
+
+## 수정 가능한 2025 대시보드 소스
+
+세부지표·실행과제·전략과제 조회 기능을 포함한 소스는 [performance-dashboard](performance-dashboard/README.md)에 있습니다.
+
+[2025 대시보드 열기](performance-dashboard/dist/index.html)
+
+다른 컴퓨터에서 이 저장소를 복제한 뒤 `performance-dashboard/dist`의 HTML/CSS/JavaScript를 수정할 수 있습니다. 실행과제 61개와 전략과제 18개 기준 조회를 지원합니다.

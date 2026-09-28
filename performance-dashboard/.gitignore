@@ -1,0 +1,8 @@
+verification-*
+verify*.cjs
+update-review.py
+*.zip
+*.tar.gz
+.env*
+.sites-runtime/
+!dist/dashboard-source.zip
