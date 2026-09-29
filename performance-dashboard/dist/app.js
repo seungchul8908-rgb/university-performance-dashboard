@@ -39,10 +39,11 @@ function load(source,year){
  const historical=currentYear===2023;
  for(const a of Object.keys(areas))areas[a]=historical?currentYear+' '+a+'영역':({S:'대학교육혁신',M:'학생지원 강화',A:'지산학상생협력',R:'글로컬교육소외타파',T:'대학경영혁신'})[a];
  $('year').value=String(year);$('period').textContent=year+'학년도';document.title=year+'학년도 대학 성과관리';
+ $('cap-limit').options[1].textContent=year===2025?'상한 150% · 보고서 기준':'상한 150% · 참고 분석';
  $('kpi').disabled=!data.some(d=>d.kpi);$('kpi').title=$('kpi').disabled?'이 학년도 원본에는 핵심지표 구분이 없습니다.':'';
  $('cap-source').textContent=year===2025?'출처: 2025학년도 중장기발전계획 성과지표 분석 결과보고서, Ⅰ-6 분석 대상 및 산출 방법, Ⅱ-3-나 극단값 영향 분석.':'출처: 첨부 엑셀의 '+year+' 달성값 시트. 상한 비교는 대시보드에서 동일한 계산식을 적용한 참고 분석이며 해당 연도 공식 보고서 수치가 아닙니다.';
  options('area',[...new Set(data.map(d=>d.area))].sort(),'전체 영역');options('dept',[...new Set(data.map(d=>d.dept))].sort((a,b)=>a.localeCompare(b,'ko')),'전체 부서');
- $('review-dept').value='';reset();$('source').textContent=fileName+' · '+sheetName+' · '+data.length+'개 세부지표';
+ $('review-dept').value='';reset();$('source').textContent=year+'학년도 · '+sheetName+' · '+data.length+'개 세부지표';
  const counts={2023:[280,129,151],2024:[287,205,81],2025:[209,166,43]},[total,passed,failed]=counts[year];
  $('audit').textContent='분석 행 '+data.length+'개 · 결측 '+audit.missing+'개 · 목표값 0 '+audit.zeroTarget+'개 · 판정 검토 '+audit.mismatch+'개. '+(data.length===total&&data.filter(d=>d.status==='달성').length===passed&&data.filter(d=>d.status==='미달성').length===failed?'첨부 자료 기준('+total+'개 / 달성 '+passed+'개 / 미달성 '+failed+'개)과 일치합니다.':year+'학년도 첨부 자료 기준('+total+'개 / 달성 '+passed+'개 / 미달성 '+failed+'개)과 다릅니다. 업로드 자료를 확인해주세요.');
 }
