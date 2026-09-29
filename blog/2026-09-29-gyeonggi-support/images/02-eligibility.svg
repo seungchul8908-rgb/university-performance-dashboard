@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" font-family="'Pretendard','Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','WenQuanYi Zen Hei',sans-serif">
+  <rect width="1200" height="700" fill="#f4f7fb"/>
+  <text x="60" y="90" font-size="40" font-weight="800" fill="#172e53">누가 받을 수 있나요?</text>
+  <text x="60" y="135" font-size="22" fill="#6b7b91">경기도 청년기본소득 3분기 신청 자격 한눈에 보기</text>
+  <g font-size="24">
+    <g transform="translate(60,180)">
+      <rect width="1080" height="130" rx="18" fill="#fff" stroke="#dfe6ef"/>
+      <circle cx="75" cy="65" r="40" fill="#e3f0fb"/><text x="75" y="76" font-size="30" font-weight="800" fill="#0f5fa8" text-anchor="middle">1</text>
+      <text x="140" y="55" font-size="26" font-weight="800" fill="#172e53">나이 : 만 24세</text>
+      <text x="140" y="95" fill="#4a5b73">2001년 7월 2일 ~ 2002년 7월 1일 사이 출생자</text>
+    </g>
+    <g transform="translate(60,330)">
+      <rect width="1080" height="130" rx="18" fill="#fff" stroke="#dfe6ef"/>
+      <circle cx="75" cy="65" r="40" fill="#e2f4ee"/><text x="75" y="76" font-size="30" font-weight="800" fill="#16836a" text-anchor="middle">2</text>
+      <text x="140" y="55" font-size="26" font-weight="800" fill="#172e53">거주 : 경기도 거주 요건 충족</text>
+      <text x="140" y="95" fill="#4a5b73">세부 거주 기간 기준은 공식 공고문에서 반드시 확인하세요</text>
+    </g>
+    <g transform="translate(60,480)">
+      <rect width="1080" height="150" rx="18" fill="#172e53"/>
+      <text x="60" y="62" font-size="24" fill="#b8c6d9">받는 금액 · 방식</text>
+      <text x="60" y="118" font-size="48" font-weight="800" fill="#ffd166">25만 원</text>
+      <text x="300" y="118" font-size="30" font-weight="700" fill="#fff">지역화폐로 지급</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" font-family="'Pretendard','Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','WenQuanYi Zen Hei',sans-serif">
+  <rect width="1200" height="520" fill="#fff"/>
+  <text x="60" y="85" font-size="40" font-weight="800" fill="#172e53">신청 일정 · 오늘부터 마감까지</text>
+  <line x1="120" y1="270" x2="1080" y2="270" stroke="#dfe6ef" stroke-width="10" stroke-linecap="round"/>
+  <g font-size="22" text-anchor="middle">
+    <circle cx="120" cy="270" r="22" fill="#16836a"/>
+    <text x="120" y="215" font-weight="800" fill="#16836a">9/29(화)</text><text x="120" y="330" fill="#4a5b73">오늘</text>
+    <circle cx="440" cy="270" r="16" fill="#fff" stroke="#16836a" stroke-width="6"/>
+    <text x="440" y="215" font-weight="700" fill="#172e53">9/30(수)</text><text x="440" y="330" fill="#4a5b73">D-2</text>
+    <circle cx="760" cy="270" r="16" fill="#fff" stroke="#9aa9bd" stroke-width="6"/>
+    <text x="760" y="215" font-weight="700" fill="#172e53">10/1(목)</text><text x="760" y="330" fill="#4a5b73">D-1</text>
+    <circle cx="1080" cy="270" r="26" fill="#c84d5b"/>
+    <text x="1080" y="215" font-weight="800" fill="#c84d5b">10/2(금)</text>
+    <text x="1080" y="330" font-weight="800" fill="#c84d5b">오후 6시 마감</text>
+  </g>
+  <rect x="60" y="390" width="1080" height="84" rx="16" fill="#fff4e0"/>
+  <text x="600" y="442" font-size="24" fill="#7a4b00" text-anchor="middle">마감 직전에는 접속이 몰릴 수 있어요 — 여유 있게 미리 신청하세요</text>
+</svg>

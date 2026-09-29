@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="670" viewBox="0 0 1200 670" font-family="'Pretendard','Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo','WenQuanYi Zen Hei',sans-serif">
+  <rect width="1200" height="670" fill="#f4f7fb"/>
+  <text x="60" y="85" font-size="40" font-weight="800" fill="#172e53">오늘의 경기도 지원정책 현황판</text>
+  <g font-size="22">
+    <g transform="translate(60,130)">
+      <rect width="1080" height="110" rx="16" fill="#fff" stroke="#dfe6ef"/>
+      <rect x="30" y="35" width="120" height="40" rx="20" fill="#16836a"/><text x="90" y="62" fill="#fff" font-weight="700" text-anchor="middle">접수중</text>
+      <text x="180" y="50" font-size="26" font-weight="800" fill="#172e53">경기도 청년기본소득 (3분기)</text>
+      <text x="180" y="86" fill="#4a5b73">10월 2일 오후 6시까지 · 잡아바 어플라이</text>
+    </g>
+    <g transform="translate(60,260)">
+      <rect width="1080" height="110" rx="16" fill="#fff" stroke="#dfe6ef"/>
+      <rect x="30" y="35" width="120" height="40" rx="20" fill="#9aa9bd"/><text x="90" y="62" fill="#fff" font-weight="700" text-anchor="middle">마감</text>
+      <text x="180" y="50" font-size="26" font-weight="800" fill="#6b7b91">장애인 평생교육이용권 추가모집</text>
+      <text x="180" y="86" fill="#8a97a8">공식 공고상 9월 28일 접수 종료</text>
+    </g>
+    <g transform="translate(60,390)">
+      <rect width="1080" height="110" rx="16" fill="#fff" stroke="#dfe6ef"/>
+      <rect x="30" y="35" width="120" height="40" rx="20" fill="#0f5fa8"/><text x="90" y="62" fill="#fff" font-weight="700" text-anchor="middle">참고</text>
+      <text x="180" y="50" font-size="26" font-weight="800" fill="#172e53">중소기업·소상공인 정책자금 / 주거환경 개선</text>
+      <text x="180" y="86" fill="#4a5b73">관련 공고 있음 · 대상과 기간은 공고별로 확인</text>
+    </g>
+    <g transform="translate(60,520)">
+      <rect width="1080" height="110" rx="16" fill="#fff" stroke="#dfe6ef"/>
+      <rect x="30" y="35" width="120" height="40" rx="20" fill="#c9a227"/><text x="90" y="62" fill="#fff" font-weight="700" text-anchor="middle">미확인</text>
+      <text x="180" y="50" font-size="26" font-weight="800" fill="#172e53">의정부시 신규 대규모 시민 지원금</text>
+      <text x="180" y="86" fill="#4a5b73">현재 확인된 공식 공고 없음</text>
+    </g>
+  </g>
+</svg>
