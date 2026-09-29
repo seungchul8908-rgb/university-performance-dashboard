@@ -48,7 +48,7 @@ function taskDetail(code){
 function downloadTasks(){
  const cell=v=>{let s=String(v??'');if(typeof v==='string'&&/^[=+@-]/.test(s))s="'"+s;return '"'+s.replace(/"/g,'""')+'"';};
  const rows=[[groupName()+' 코드',groupName(),'담당부서','구성 지표 수','원값 평균(%)',$('cap-limit').value+'% 상한 적용(%)','원값 판정'],...taskVisible.map(t=>[t.code,t.title,taskDepartments(t),t.items.length,t.raw,t.cap,taskStatus(t)])];
- const url=URL.createObjectURL(new Blob(['\uFEFF'+rows.map(r=>r.map(cell).join(',')).join('\r\n')],{type:'text/csv;charset=utf-8'})),a=document.createElement('a');a.href=url;a.download='2025_'+groupName()+'_필터결과.csv';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
+ const url=URL.createObjectURL(new Blob(['\uFEFF'+rows.map(r=>r.map(cell).join(',')).join('\r\n')],{type:'text/csv;charset=utf-8'})),a=document.createElement('a');a.href=url;a.download=currentYear+'_'+groupName()+'_필터결과.csv';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
 }
 
 function strategyChildren(t){

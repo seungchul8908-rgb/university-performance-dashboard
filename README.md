@@ -4,15 +4,15 @@
 
 - 2023·2024·2025 연도별 성과 현황
 - 종합현황 / 성과분석 / 위험신호 / 부서분석 / 환류관리 / 연도별 추세
-- 2025년을 추세관리 기준연도로 사용
+- 2023·2024·2025 학년도별 세부지표 조회(각각 280·287·209개); 2023년 과제 체계는 별도 유지
 - 150% 상한 적용 비교 및 목표값 적정성 진단
 
 웹 배포용 정적 파일은 저장소 루트에서 제공합니다.
 
-## 수정 가능한 2025 대시보드 소스
+## 수정 가능한 3개 학년도 대시보드 소스
 
 세부지표·실행과제·전략과제 조회 기능을 포함한 소스는 [performance-dashboard](performance-dashboard/README.md)에 있습니다.
 
-[2025 대시보드 열기](performance-dashboard/dist/index.html)
+[학년도별 대시보드 열기](performance-dashboard/dist/index.html)
 
 다른 컴퓨터에서 이 저장소를 복제한 뒤 `performance-dashboard/dist`의 HTML/CSS/JavaScript를 수정할 수 있습니다. 실행과제 61개와 전략과제 18개 기준 조회를 지원합니다.
